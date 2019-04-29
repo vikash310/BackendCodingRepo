@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Branch Details</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="static/index.css">
+</head>
+<body>
+	<div class="container d-flex apni-100">
+	<div class="card justify-content-center align-self-center">
+	  <div class="card-body">
+		<h5 class="card-title">Branch Finder</h5>
+		<div class="card-body">
+			<form action='/getBranchDetails' method='POST' class="form-group">
+				<input type='text' name='ifsc_code' placeholder="Enter IFSC code" class="form-control mt-4"/>
+				<input type='submit' value='Submit' class="btn btn-success mt-4"/>
+			</form>
+		</div>
+	  </div>
+	</div>		
+	</div>
+	
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
