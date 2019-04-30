@@ -1,0 +1,5 @@
+web: gunicorn app	:BackendCodingRepo
+release: python manage.py db upgrade
+
+
+
